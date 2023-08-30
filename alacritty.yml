@@ -42,7 +42,10 @@ selection:
 
 shell:
   program: "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
-  args: ["--nologo", "--WorkingDirectory C:\\Users\\Gavin"]
+  args: ["--nologo"]
 
 import:
   - C:/Users/Gavin/AppData/Roaming/alacritty/themes/carbonfox.yaml
+
+key_bindings:
+  - { key: Tab, mods: Control, chars: "\x09" }
