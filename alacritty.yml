@@ -18,6 +18,12 @@ scrolling:
   history: 10000
   multiplier: 3
 
+cursor:
+  style:
+    blinking: Always
+  blink_interval: 750
+  blink_timeout: 0
+
 font:
   normal:
     family: CaskaydiaCove Nerd Font Mono
