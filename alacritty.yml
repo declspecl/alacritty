@@ -9,7 +9,7 @@ window:
         columns: 150
         lines: 32
     position:
-        x: 165
+        x: 200
         y: 85
     dynamic_title: false
     decoration_theme_variant: Dark
