@@ -1,57 +1,57 @@
 window:
-  class:
-    instance: Alacritty
-    general: Alacritty
-  opacity: 1
-  dimensions:
-    columns: 130
-    lines: 35
-  position:
-    x: 150
-    y: 73
-  dynamic_padding: true
-  title: "alacritty"
-  dynamic_title: false
-  decoration_theme_variant: Dark
+    class:
+        instance: Alacritty
+        general: Alacritty
+    opacity: 1
+    title: "alacritty"
+    startup_mode: Windowed
+    dimensions:
+        columns: 150
+        lines: 32
+    position:
+        x: 165
+        y: 85
+    dynamic_title: false
+    decoration_theme_variant: Dark
 
 scrolling:
-  history: 10000
-  multiplier: 3
+    history: 10000
+    multiplier: 3
 
 cursor:
-  style:
-    blinking: Always
-  blink_interval: 750
-  blink_timeout: 0
+    style:
+        blinking: Always
+    blink_interval: 750
+    blink_timeout: 0
 
 font:
-  normal:
-    family: CaskaydiaCove Nerd Font Mono
-    style: Regular
-
-  bold: 
-    family: CaskaydiaCove Nerd Font Mono
-    style: Bold
-
-  italic: 
-    family: CaskaydiaCove Nerd Font Mono
-    style: Italic
-
-  bold_italic: 
-    family: CaskaydiaCove Nerd Font Mono
-    style: Bold Italic
-
-  size: 12
+    normal:
+        family: Iosevka Nerd Font Mono
+        style: Regular
+    
+    bold: 
+        family: Iosevka Nerd Font Mono
+        style: Bold
+    
+    italic: 
+        family: Iosevka Nerd Font Mono
+        style: Italic
+    
+    bold_italic: 
+        family: Iosevka Nerd Font Mono
+        style: Bold Italic
+    
+    size: 16
 
 selection:
-  save_to_clipboard: false
+    save_to_clipboard: false
 
 shell:
-  program: "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
-  args: ["--nologo"]
+    program: "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+    args: ["--nologo"]
 
 import:
-  - ~/AppData/Roaming/alacritty/themes/miasma.yaml
+    - ~/AppData/Roaming/alacritty/themes/rose-pine.yaml
 
 key_bindings:
-  - { key: Tab, mods: Control, chars: "\x09" }
+    - { key: Tab, mods: Control, chars: "\x09" }
