@@ -41,7 +41,7 @@ font:
         family: Iosevka Nerd Font Mono
         style: Bold Italic
     
-    size: 16
+    size: 14
 
 selection:
     save_to_clipboard: false
