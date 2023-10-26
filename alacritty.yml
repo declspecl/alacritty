@@ -6,10 +6,10 @@ window:
     title: "alacritty"
     startup_mode: Windowed
     dimensions:
-        columns: 120
-        lines: 26
+        columns: 138
+        lines: 29
     position:
-        x: 175
+        x: 190
         y: 65
     dynamic_title: false
     decoration_theme_variant: Dark
