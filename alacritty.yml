@@ -51,7 +51,7 @@ shell:
     args: ["--nologo"]
 
 import:
-    - ~/AppData/Roaming/alacritty/themes/gruber_darker.yaml
+    - ~/AppData/Roaming/alacritty/themes/rose-pine.yaml
 
 key_bindings:
     - { key: Tab, mods: Control, chars: "\x09" }
